@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "mcp__Jupyter_MCP_Server__read_notebook",
+      "mcp__Jupyter_MCP_Server__get_cell_id_from_index",
+      "mcp__Jupyter_MCP_Server__edit_cell",
+      "Bash(python3 -c \"import sys,json; data=sys.stdin.read\\(\\); idx=data.find\\('Cell 21'\\); print\\(data[idx:idx+3000]\\)\")",
+      "Bash(python3 -c \"import sys; data=sys.stdin.read\\(\\); idx=data.find\\('ModuleNotFoundError'\\); print\\(data[idx:idx+1000]\\)\")",
+      "Bash(python3 -c \"import sys; data=sys.stdin.read\\(\\); idx=data.find\\('No module named'\\); print\\(data[idx:idx+200]\\)\")",
+      "Bash(python3 -c ' *)"
+    ]
+  }
+}
